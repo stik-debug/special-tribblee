@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { store } from '../lib/store';
 import type { User, Chama } from '../lib/types';
-import { LayoutDashboard, Users, CreditCard, Shield, FileText, LogOut, Menu, X, Search, AlertTriangle, CheckCircle, Clock, DollarSign, TrendingUp, Ban, Unlock, Plus, Download } from 'lucide-react';
+import { LayoutDashboard, Users, CreditCard, Shield, FileText, LogOut, Menu, X, Search, CheckCircle, DollarSign } from 'lucide-react';
 
 interface AdminPanelProps { user: User; }
 

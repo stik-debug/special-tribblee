@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { store } from '../lib/store';
 import type { User, Chama, ChamaMember } from '../lib/types';
-import { Home, Users, Wallet, TrendingUp, Calendar, MessageSquare, Bell, Settings, LogOut, Menu, X, ChevronRight, Download, Plus, AlertTriangle, CheckCircle, Clock, DollarSign, CreditCard, Smartphone } from 'lucide-react';
+import { Home, Users, Wallet, TrendingUp, Calendar, MessageSquare, Settings, LogOut, Menu, X, Download, Plus, AlertTriangle, CheckCircle, DollarSign, CreditCard, Smartphone } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, AreaChart, Area } from 'recharts';
 
 interface DashboardProps { user: User; }
